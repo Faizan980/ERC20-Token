@@ -52,7 +52,7 @@ contract MyERC20 is ERC20_STD,Ownership {
     uint8 public _decimal;
     uint256 public _totalSupply; // Necessary to provide supply first
 
-    address public _minter; // It create/mint address create digital currency   
+    address public _minter; // To create/mint coins address or to create digital currency   
 
     mapping (address => uint256) TotalBalances;
     mapping(address => mapping(address => uint256)) allowed;
